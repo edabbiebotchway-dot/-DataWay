@@ -1,13 +1,40 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
+import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <Navigation />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Testimonials />
+      <Contact />
+      
+      {/* Footer */}
+      <footer className="bg-foreground text-background py-12 px-6">
+        <div className="max-w-7xl mx-auto text-center">
+          <div className="mb-8">
+            <h3 className="text-2xl font-bold mb-4">[Your Name]</h3>
+            <p className="text-background/80 max-w-2xl mx-auto">
+              Digital Marketing Professional & Data Analyst specializing in AI-powered business solutions
+            </p>
+          </div>
+          
+          <div className="border-t border-background/20 pt-8">
+            <p className="text-background/60 text-sm">
+              © 2024 [Your Name]. All rights reserved. Built with React & Tailwind CSS.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
   );
 };
 
