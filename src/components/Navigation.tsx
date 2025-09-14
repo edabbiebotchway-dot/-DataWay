@@ -42,7 +42,7 @@ const Navigation = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="text-2xl font-bold text-foreground hover:text-primary transition-smooth"
             >
-              [Your Name]
+              Green Data
             </button>
           </div>
 

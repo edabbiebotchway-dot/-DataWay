@@ -22,7 +22,7 @@ const About = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">Hi, I'm [Your Name]</strong> — a digital marketing professional and data analyst with a passion for leveraging AI to solve real business challenges. My journey began in traditional marketing, but I quickly realized the transformative potential of combining data science with creative strategy.
+                <strong className="text-foreground">Hi, I'm Green Data</strong> — a digital marketing professional and data analyst with a passion for leveraging AI to solve real business challenges. My journey began in traditional marketing, but I quickly realized the transformative potential of combining data science with creative strategy.
               </p>
               
               <p>
